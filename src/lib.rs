@@ -228,7 +228,7 @@ fn run(app: AndroidApp) {
                                     .with_video(
                                         ruffle_video_software::backend::SoftwareVideoBackend::new(),
                                     )
-                                    .with_max_execution_duration(Duration::from_millis(1000))
+                                    .with_max_execution_duration(Duration::from_secs(1000))
                                     .build(),
                                 executor,
                             });
