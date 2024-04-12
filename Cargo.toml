@@ -34,6 +34,7 @@ ruffle_core = { git = "https://github.com/ruffle-rs/ruffle.git", branch = "maste
     "default_compatibility_rules",
     "default_font",
     "lzma",
+    "jpegxr",
 ] }
 
 ruffle_render_wgpu = { git = "https://github.com/ruffle-rs/ruffle.git", branch = "master" }
