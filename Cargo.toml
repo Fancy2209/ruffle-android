@@ -14,7 +14,7 @@ crate-type = ["cdylib"]
 strip = "symbols"
 
 [dependencies]
-
+jpegxr = { git = "https://github.com/Fancy2209/jpegxr", branch = "ruffle" }
 android-activity = { version = "0.5.2", features = ["game-activity"] }
 android_logger = "0.13.3"
 
